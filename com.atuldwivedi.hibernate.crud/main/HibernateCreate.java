@@ -7,7 +7,7 @@ import org.hibernate.cfg.Configuration;
 
 import pojo.Employee;
 
-public class Main {
+public class HibernateCreate {
 
 	public static void main(String[] args) {
 		
