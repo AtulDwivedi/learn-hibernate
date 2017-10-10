@@ -42,6 +42,10 @@ Configuration conn = new Configuration().configure("conf/hibernate.cfg.xml");
 		
 		t1.commit();
 		
+        s.close();
+	    
+	    sf.close();
+		
 	}
 
 }

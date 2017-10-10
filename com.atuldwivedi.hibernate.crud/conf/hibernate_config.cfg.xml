@@ -17,9 +17,11 @@
     <property name="show_sql">true</property>
     <property name="hibernate.dialect">org.hibernate.dialect.H2Dialect</property>
     
-    <mapping resource="conf/Employee.hbm.xml"></mapping>
     
-  
+    
+    <mapping resource="conf/Student.hbm.xml"></mapping>
+	<mapping resource="conf/Subject.hbm.xml"></mapping>
+    
     
  
  </session-factory>

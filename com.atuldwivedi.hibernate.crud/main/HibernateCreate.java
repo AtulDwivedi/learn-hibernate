@@ -60,7 +60,10 @@ public class HibernateCreate {
 	    t.commit();
 	    
 	    s.close();
-
+	    
+	    sf.close();
+	    
+	    
 	}
 
 }

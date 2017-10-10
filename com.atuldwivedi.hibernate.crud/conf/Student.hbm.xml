@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+
+<hibernate-mapping>
+
+	<class name="pojo.Student" table="student">
+	  <id name="stdId" column="id"></id>
+	  <property name="stdName" column="std_name"></property>
+	  <property name="stdAge" column="std_age"></property>
+	  
+	  <many-to-one name="stdSubject" column="std_subject" class="pojo.Subject"></many-to-one>
+	</class>
+
+</hibernate-mapping>

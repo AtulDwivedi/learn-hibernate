@@ -24,6 +24,10 @@ public class HibernateRead {
 		Employee emp = (Employee) s.get(Employee.class, 3);
 		
 		System.out.println("Get complete: " + emp.getSubject());
+		
+        s.close();
+	    
+	    sf.close();
 	}
 	
 }

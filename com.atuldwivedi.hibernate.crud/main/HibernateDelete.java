@@ -30,6 +30,10 @@ public class HibernateDelete {
 		s.createQuery("delete from Employee where id= 4").executeUpdate();
 		
 		t1.commit();
+		
+        s.close();
+	    
+	    sf.close();
 
 	}
 
